@@ -1,0 +1,50 @@
+.container{
+    width: 500px;
+    height: 400px;
+    padding: 80px;
+    margin: 10%;
+    display: grid;
+    gap: 7px;
+    background-color: bisque;
+    grid-template-areas: 
+    "one one one one "
+    "two three three four"
+    "five five five five"
+    ;
+
+}
+.children{
+    text-align: center;
+    font-size: large;
+    box-sizing: border-box;
+    background-color: lightpink;
+    
+    
+}
+
+
+ #one{
+  
+    height: 50px;
+   grid-area: one;
+   
+}
+#two{
+   
+    height: 250px;
+    grid-area: two;
+ 
+}
+#three{
+   
+    grid-area: three;
+}
+#four{
+    
+    grid-area:four;
+}
+#five{
+    
+    height: 50px;
+grid-area: five;
+}
